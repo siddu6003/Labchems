@@ -1,0 +1,131 @@
+.home1{
+    height: 100vh;
+    width:100%;
+    background-image: url('../dna.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home1_p{
+    font-size: 50px;
+    color: white;
+    animation: glow2 1s ease-in-out infinite alternate;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #008ae6;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #4d7cff;
+    }
+  }
+
+  @keyframes glow2 {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px ;
+    }
+    
+    to {
+      text-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+  }
+
+  .b1{
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+  }
+
+  .home2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 80px;
+    padding: 20px;
+  }
+
+  .home2_images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:100px;
+  }
+
+  .home2_p{
+    font-size: 50px;
+    color: white;
+    animation: glow2 1s ease-in-out infinite alternate;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  .grid1{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .home3{
+    height: 50vh;
+    width:100%;
+    background-image: url('../top_lab.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding: 20px;
+  }
+
+  .home5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b2{
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+  }
+
+  .home4_input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
