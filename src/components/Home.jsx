@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from '../components/Navbar.jsx'
 import '../components/Home.css';
 import i1 from '../ap-balances.webp'
