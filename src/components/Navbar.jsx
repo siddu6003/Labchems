@@ -1,4 +1,3 @@
-import react from 'react'
 import '../components/Navbar.css'
 import image from '../lab.png'
 
