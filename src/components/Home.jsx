@@ -1,13 +1,13 @@
 import Navbar from '../components/Navbar.jsx'
 import '../components/Home.css';
-import i1 from '../ap-balances.webp'
-import i2 from '../centrifuge.webp';
-import i3 from '../dlab-pipettes.webp';
-import i4 from '../electronic-balance.webp';
-import i5 from '../rotary-evaporator.webp';
-import i6 from '../shimadzu-balances.webp';
-import i7 from '../spectrometer.webp';
-import i8 from '../ua-balances.webp';
+import i8 from '../ap-balances.webp'
+import i1 from '../centrifuge.webp';
+import i2 from '../dlab-pipettes.webp';
+import i3 from '../electronic-balance.webp';
+import i4 from '../rotary-evaporator.webp';
+import i5 from '../shimadzu-balances.webp';
+import i6 from '../spectrometer.webp';
+import i7 from '../ua-balances.webp';
 
 function Home(){
     return (
