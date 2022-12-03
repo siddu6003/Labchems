@@ -8,6 +8,9 @@ import i4 from '../rotary-evaporator.webp';
 import i5 from '../shimadzu-balances.webp';
 import i6 from '../spectrometer.webp';
 import i7 from '../ua-balances.webp';
+import Address from './Address.jsx';
+import Footer from './Footer.jsx';
+import Enquiry from './Enquiry.jsx';
 
 function Home(){
     return (
@@ -41,21 +44,9 @@ function Home(){
                 <button className="b1">Learn More</button>
             </div>
 
-            <div className = "home4">
-                <h2>Ask Your Queries</h2>
-                <div className="home4_input">
-                    <label>Name</label>
-                    <input></input>
-                </div>
-            </div>
-
-            <div className = "home5">
-                Address
-            </div>
-
-            <div className="home6">
-                Footer
-            </div>
+            <Enquiry name="Send Your Query"/>
+            <Address/>
+            <Footer/>
         </div>
     )
 }

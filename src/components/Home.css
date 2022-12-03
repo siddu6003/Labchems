@@ -59,7 +59,7 @@
 .home2_images{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap:2vh;
+  gap:10vh;
 }
 
 .home2_p{
@@ -75,7 +75,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .home2_images{
     grid-template-columns: 1fr;
   }
