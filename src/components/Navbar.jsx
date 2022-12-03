@@ -4,7 +4,7 @@ import image from '../lab.png'
 function Navbar(){
     return(
         <div className='nav-main'>
-            <div className='n-e-1'><img src={image} alt="random"/></div>
+            <img className="n-e-1" src={image} alt="random"/>
             <div className='itemsearch'>
                 <a className='n-e' href='#home'>HOME</a>
                 <a className='n-e' href='home'>ABOUT US</a>

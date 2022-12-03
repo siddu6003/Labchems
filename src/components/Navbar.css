@@ -26,9 +26,8 @@
 }
 
 .n-e-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width:100%;
+    height: auto;
 }
 
 .n-e{
@@ -53,3 +52,17 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #4d7cff, 0 0 40px #4d7cff, 0 0 50px #4d7cff, 0 0 60px #4d7cff, 0 0 70px #4d7cff, 0 0 80px #4d7cff;
     }
   }
+
+  @media screen and (max-width: 1000px) {
+    .nav-main{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemsearch{
+        margin-left: 10%;
+    }
+  }
+  
