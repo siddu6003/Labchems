@@ -75,7 +75,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .home2_images{
     grid-template-columns: 1fr;
   }
@@ -90,6 +90,7 @@
   .home1_p{
     font-size: 2vh;
   }
+
 }
 
 .home3{

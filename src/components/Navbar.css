@@ -57,12 +57,15 @@
     .nav-main{
         height: auto;
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .itemsearch{
-        margin-left: 10%;
+        width: 100%;
+        height: auto;
+        padding-left: 10vw;
     }
   }
   
