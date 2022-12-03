@@ -6,11 +6,11 @@ function Navbar(){
         <div className='nav-main'>
             <img className="n-e-1" src={image} alt="random"/>
             <div className='itemsearch'>
-                <a className='n-e' href='#home'>HOME</a>
-                <a className='n-e' href='home'>ABOUT US</a>
-                <a className='n-e' href='home'>PRODUCTS</a>
-                <a className='n-e' href='home'>SERVICES</a>
-                <a className='n-e' href='home'>ENQUIRIES</a>
+                <a className='n-e' href='/'>HOME</a>
+                <a className='n-e' href='aboutus'>ABOUT US</a>
+                <a className='n-e' href='products'>PRODUCTS</a>
+                <a className='n-e' href='service'>SERVICES</a>
+                <a className='n-e' href='enquiries'>ENQUIRIES</a>
             </div>
         </div>
     )
