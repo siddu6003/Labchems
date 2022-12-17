@@ -1,8 +1,17 @@
 .abt{
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 2vh;
+    padding: 15vh;
+}
+
+.img{
+    max-width: 100vw;
+    max-height: 50vh;
+}
+
+.p1{
+    font-size: 3vh;
 }

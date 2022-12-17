@@ -1,0 +1,19 @@
+.pro{
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.product_p{
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .product_p{
+        width: 100%;
+    }  
+}
