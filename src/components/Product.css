@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     font-size: 2vh;
     text-align: center;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 1000px) {
