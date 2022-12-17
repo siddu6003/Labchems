@@ -11,10 +11,11 @@ function Aboutus(){
             <div className="abt">
                 <h2>About Us</h2>
                 <img className="img" src = {about} alt='no'/>
-                <p className="p1">We are proud to have a successful relationship with the customers by meeting </p>
-                <p className="p1">their expectations on quality and timely service. Our post-sales services are </p>
-                <p className="p1">offered through our well trained, highly qualified and experienced service team.</p>
-                <p className="p1"> We undertake Annual Maintenance Contracts for the equipment we supply. We also provide calibration services.</p>
+                <p className="about_p">LabChems is one of the leading suppliers of Laboratory chemicals and equipment to pharmaceuticals, biotech industries, aqua industries and academic institutions.
+
+As an young organization we are striving to offer quality service and best solutions to our clients in the field of biotechnology and pharmaceuticals. We will work with our clients collaboratively and ensure their needs are met at rapid pace with competitive pricing.
+
+Our team includes scientists with 10-20 years of experience in world class organizations who are always on the look out for latest technologies in the field and ready to adopt to the latest trends and challenges.</p>
             </div>
             <Address/>
             <Footer/>

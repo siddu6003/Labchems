@@ -12,6 +12,18 @@
     max-height: 50vh;
 }
 
-.p1{
-    font-size: 3vh;
+.about_p{
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    text-align: center;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1000px) {
+    .about_p{
+        width: 100%;
+        font-size: 2vh;
+    }  
 }
