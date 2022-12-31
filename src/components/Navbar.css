@@ -63,10 +63,9 @@
         align-items: center;
     }
     .itemsearch{
-        width: 100%;
+        width: 80%;
         height: auto;
         display: flex;
-        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
