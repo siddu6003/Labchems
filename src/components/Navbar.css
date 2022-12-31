@@ -61,6 +61,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 1.5vh;
     }
     .itemsearch{
         width: 80%;
